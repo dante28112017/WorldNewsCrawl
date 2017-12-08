@@ -1,9 +1,10 @@
 package com.world.crawl.model;
 
-public class Link {
+public class Contitent {
 	private int id;
 	private String name;
 	private String url;
+	private int crawlStatus;
 	public int getId() {
 		return id;
 	}
@@ -21,6 +22,12 @@ public class Link {
 	}
 	public void setUrl(String url) {
 		this.url = url;
+	}
+	public int getCrawlStatus() {
+		return crawlStatus;
+	}
+	public void setCrawlStatus(int crawlStatus) {
+		this.crawlStatus = crawlStatus;
 	}
 	
 }
